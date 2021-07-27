@@ -1,0 +1,802 @@
+@media only screen and (min-device-width : 992px) and (max-device-width : 1199px) {
+	.sub_loading {
+	    margin-top: 40%;
+	}
+	#loading img {
+	    width: 5%;
+	    margin-top: 5px;
+	}
+	.mission img {
+		height: 550px;
+	}
+	.service_second {
+    	top: 50px;
+    	left: 11%;
+    }
+    .counter_style {
+    	left: 10%;
+    	top: 75%;
+	}
+	.Ongoing_Courses {
+    	padding-top: 20%;
+	}
+	.new-gapp a {
+    	padding: 20px 108px;
+    }
+}
+@media only screen and (max-device-width: 1024px) and (min-device-width : 992px) {
+	.counter_style {
+	    left: 3%;
+	    top: 88%;
+	}
+	.service_second {
+	    left: 4%;
+	}
+
+}
+@media only screen and (max-width : 768px) {
+	.sub_loading {
+	    margin-top: 30%;
+	}
+	.navbar .menu-list {
+	    height: 40%;
+	    width: 40%;
+	}
+	.manu-extra-gap {
+		margin-top: 50px !important;
+	}
+	.navbar .nav-link {
+	  	font-size: 18px !important;
+	  	color: #fff !important;
+	  	border: none;
+	  }
+	  .navbar .nav-link:hover {
+	  	color: #3b3b3b;
+    	background: transparent;
+	  }
+	  .icon {
+    	color: #fff;
+    }
+    .upcoming_event_text h1 {
+    	margin-bottom: 40px;
+    }
+    .subtitle {
+	    margin-left: 35%;
+	    margin-right: 33%;
+	}
+	.main_card {
+	    margin-bottom: 50px !important;
+	}
+	.service_second {
+	    left: 4% !important;
+	    top: 10%;
+	}
+	.services_bg {
+		height: 550px;
+	}
+    .counter_style {
+    	left: 3%;
+    }
+    .Ongoing_Courses {
+	    padding-top: 20%;
+	}
+    #gtco-footer {
+		text-align: center;
+	}
+	#gtco-footer .input, #gtco-footer textarea {
+    	max-width: 100% !important;
+    }
+    .follow-us-nav {
+    	margin-left: 35%;
+    	margin-bottom: 5%;
+    }
+
+}
+@media only screen and (min-device-width : 769px) and (max-device-width: 991px) {
+	.sub_loading {
+	    margin-top: 30%;
+	}
+	.navbar .menu-list {
+	    width: 35%;
+	}
+	.icon.cancel-btn.show {
+	    display: block;
+	    color: #005633;
+	    border: none;
+	}
+	.nav-link {
+	    font-size: 14px !important;
+	    border: none !important;
+	}
+	.nav-link:hover {
+		background: transparent !important;
+    	color: #737373 !important;
+    	font-weight: 500 !important;
+	}
+	.dropdown_sublist {
+		margin-top: 0px !important;
+	}
+	.drop_manu {
+	    font-size: 14px !important;
+	}
+
+	/*adding*/
+
+	.dropdown-menu {
+    	left: 0% !important;
+    }
+	/*.dropdown-menu[data-bs-popper] {
+	    margin-top: 0.125rem;
+	}*/
+	.upcoming_event_text h1 {
+    	font-size: 32px;
+    	margin-bottom: 30px;
+    }
+    .upcoming_event_text p {
+	    font-size: 14px;
+	    font-weight: 300;
+	}
+	.upcoming_event_btn a {
+    	padding: 20px 90px;
+    }
+    .subtitle {
+    	margin-left: 30%;
+    	margin-right: 30%;
+    }
+    .mm {
+    	margin-top: 10%;
+    }
+    .service_second {
+	    top: 45px;
+	    left: 7%;
+	}
+	.counter_style {
+	    top: 84%;
+	    left: 6%;
+	}
+	.counter_style {
+    	padding: 40px;
+    }
+	.Ongoing_Courses {
+    	padding-top: 18%;
+	}
+	.services_bg {
+	    width: 100% !important;
+	    height: 460px;
+	}
+	.card h3 {
+    	font-size: 32px;
+    }
+    .card ul {
+    	font-size: 22px;
+    }
+    .new-gapp a {
+    	padding: 20px 228px;
+    }
+    .box img {
+	    width: 60%;
+	}
+	.box p {
+    	font-size: 15px !important;
+    }
+    #gtco-footer {
+    	text-align: center;
+    }
+    #gtco-footer input, #gtco-footer textarea {
+    	margin-left: 0px;
+    }
+    .follow-us-nav {
+    	margin-left: 35%;
+    }
+}
+@media only screen and (min-device-width : 478px) and (max-device-width : 767px) {
+	/*.line {
+	    width: 7px;
+	    height: 7px;
+	    border-radius: 25px;
+	    background: #005633;
+	    margin: 5px;
+	  }
+	  nav {
+	    position: relative;
+	  }
+
+	  .hamburger {
+	    position: absolute;
+	    cursor: pointer;
+	    right: 5%;
+	    top: 50%;
+	    transform: translate(-5%, 15%);
+	    z-index: 2;
+	  }*/
+	  #loading {
+	    height: 1000px;
+	    width: 110%;
+	}
+	.sub_loading {
+	    margin-top: 39%;
+	}
+	#loading img {
+	    width: 5%;
+	    display: block;
+	    margin-top: 4px;
+	    margin-left: 47%;
+	}
+	  .navbar .menu-list {
+    	width: 38%;
+    	height: 45%;
+    }
+	  .navbar .nav-link {
+	  	font-size: 14px !important;
+	  	color: #fff !important;
+	  	border: none;
+	  }
+	  .navbar .nav-link:hover {
+	  	color: #3b3b3b;
+    	background: transparent;
+	  }
+	  .icon {
+    	color: #fff;
+    }
+    .menu-btn {
+		width: 10px !important;
+	}
+	  .nav-links {
+	    position: fixed;
+	    background: #5b78c7;
+	    height: 100vh;
+	    width: 100%;
+	    flex-direction: column;
+	    clip-path: circle(100px at 90% -10%);
+	    -webkit-clip-path: circle(100px at 90% -10%);
+	    transition: all 1s ease-out;
+	    pointer-events: none;
+	  }
+	  .nav-links.open {
+	    clip-path: circle(1000px at 90% -10%);
+	    -webkit-clip-path: circle(1000px at 90% -10%);
+	    pointer-events: all;
+	  }
+	  .dropdown_sublist {
+	  	margin-top: 10px !important;
+	  }
+	  .drop_manu {
+	    font-size: 14px !important;
+	}
+	.manu-extra-gap {
+	    margin-top: 50px !important;
+	}
+	  .landing {
+	    flex-direction: column;
+	  }
+	  .nav-links li {
+	    opacity: 0;
+	  }
+	  .nav-links li a {
+	    font-size: 25px;
+	  }
+	  .nav-links li:nth-child(1) {
+	    transition: all 0.5s ease 0.2s;
+	  }
+	  .nav-links li:nth-child(2) {
+	    transition: all 0.5s ease 0.4s;
+	  }
+	  .nav-links li:nth-child(3) {
+	    transition: all 0.5s ease 0.6s;
+	  }
+	  li.fade {
+	    opacity: 1;
+	  }
+	.upcoming_event_btn a {
+	    padding: 20px 50px;
+	}
+	.upcoming_event_btn {
+	    padding-top: 65px;
+	}
+	.service_second p {
+	    font-size: 20px;
+	}
+	.counter_style {
+	    top: 77%;
+	    left: 10%;
+	}
+	.counter_style {
+    	padding: 30px;
+    }
+	.service_second {
+	    left: 10%;
+	}
+	.Ongoing_Courses {
+	    padding-top: 33%;
+	}
+	.new-gapp a {
+	    padding: 20px 138px;
+	}
+	.feedback_gap {
+		margin-top: 0px;
+	}
+	.myLeftCtn {
+		width: 100%;
+	}
+	#gtco-footer {
+		text-align: center;
+	}
+	#gtco-footer input, #gtco-footer textarea {
+		margin-left: 0px;
+		max-width: none !important;
+	}
+	.follow-us-nav {
+	    margin-left: 29%;
+	    margin-bottom: 40px;
+	}
+	.about p {
+	    width: 100%;
+	    text-align: center;
+	}
+    .subtitle {
+	    margin-left: 25%;
+	    margin-right: 25%;
+	}
+    .card {
+    	margin-bottom: 50px !important;
+    }
+    .services_bg {
+    	height: 650px;
+    }
+    .submit-Btn {
+	    background: #005633;
+	    font-size: 12px;
+	    font-weight: 300;
+	    font-family: 'graphik',sans-serif;
+	    color: #fff;
+	    border-radius: 50px;
+	    padding: 5px 15px;
+	    display: inline-block;
+	    padding-right: 5px;
+	    text-decoration: none !important;
+	    transition: .3s;
+	}
+	.submit-Btn .new_fa {
+		background: #fff;
+		border-radius: 50%;
+		height: 25px;
+		width: 25px;
+		color: #005633;
+		font-size: 22px;
+		text-align: center;
+		padding-top: 1px;
+		margin-left: 10px;
+	}
+	.moblie_none {
+		display: none;
+	}
+}
+
+	/*web-technologies responsive*/
+
+    .card ul {
+	    font-size: 18px;
+	}
+}
+@media only screen and (min-device-width : 420px) and (max-device-width : 477px) {
+	.sub_loading {
+	    margin-top: 50%;
+	}
+	#loading img {
+	    width: 6%;
+	    display: block;
+	    margin-top: 4px;
+	    margin-left: 47%;
+	}
+	.navbar .nav-link {
+	    font-size: 14px !important;
+	    color: #fff !important;
+	    margin-left: 5px !important;
+	    border: none;
+	}
+	.navbar .nav-link:hover {
+		color: #3b3b3b;
+		background: transparent;
+	}
+	.icon {
+	    color: #fff;
+	}
+	.menu-btn {
+		width: 40px !important;
+	}
+	/*.dropdown-menu[data-bs-popper] {
+	    left: 15%;
+	    border: none;
+	    border-top: 2px solid #8cc63f;
+	    margin-top: 0.125rem;
+	}*/
+	.drop_manu {
+	    padding: 5px 5px !important;
+	}
+	.dropdown_sublist {
+	    margin-top: 10px !important;
+	}
+	.dropdown_sublist .drop_manu {
+		font-size: 10px !important;
+	}
+	.manu-extra-gap {
+		margin-top: 30px !important;
+	}
+	.carousel-control-next, .carousel-control-prev {
+    	bottom: -35%;
+    }
+	.upcoming_event_text h1 {
+    	margin-bottom: 30px;
+    }
+	/*.upcoming_event_btn a {
+		padding: 15px 50px;
+		font-size: 18px;
+	}*/
+	.about p {
+		width: 100%;
+	}
+	.counter_style {
+    	padding: 35px;
+    }
+    .services_bg {
+	    width: 1250px !important;
+	}
+	.subtitle {
+	    margin-left: 25%;
+	    margin-right: 20%;
+	}
+	.card {
+		margin: 0 30px 30px 30px;
+	}
+	.services_bg {
+	    width: 100% !important;
+	    height: 430px;
+	}
+	.service_second {
+	    left: 0% !important;
+	    top: 10%;
+	}
+	.service_second h1 {
+    	font-size: 42px;
+    }
+    .service_second p {
+	    font-size: 16px;
+	}
+	.counter_style {
+	    left: 0%;
+	    top: 90%;
+	}
+	.Ongoing_Courses {
+	    padding-top: 80%;
+	}
+	.Ongoing_Courses h1 {
+	    font-size: 30px;
+	}
+	.bg-light {
+	    margin-left: 30px;
+    	margin-right: 30px;
+	}
+	.feedback_txt {
+		font-size: 14px !important;
+	}
+	.feedback_user {
+	    font-size: 16px;
+	}
+	footer {
+	    padding-top: 300px;
+	}
+	.item {
+	  	padding-right: 20px;
+	  	padding-left: 20px;
+	}
+	#gtco-footer .col-12 p {
+	    font-family: 'graphik',sans-serif;
+	    font-size: 15px;
+	    color: #005633;
+	}
+	footer {
+		text-align: center;
+	}
+	.follow-us-nav {
+		margin-left: 16%;
+	}
+	.contact_title_subtitle {
+   		margin-bottom: 60px;
+   	}
+   	#gtco-footer {
+	    padding-bottom: 20px;
+	    padding-top: 40px;
+	}
+	.follow-us-nav {
+	    margin-left: 25%;
+	}
+	.submit-Btn {
+	    background: #005633;
+	    font-size: 12px;
+	    font-weight: 300;
+	    font-family: 'graphik',sans-serif;
+	    color: #fff;
+	    border-radius: 50px;
+	    padding: 5px 15px;
+	    display: inline-block;
+	    padding-right: 5px;
+	    text-decoration: none !important;
+	    transition: .3s;
+	}
+	.submit-Btn .new_fa {
+		background: #fff;
+		border-radius: 50%;
+		height: 25px;
+		width: 25px;
+		color: #005633;
+		font-size: 22px;
+		text-align: center;
+		padding-top: 0px;
+		margin-left: 10px;
+	}
+	.moblie_none {
+		display: none !important;
+	}
+	/*web-technologies responsive*/
+
+	.web-title h1 {
+    	font-size: 36px;
+    }
+
+    /*adding Certificate Search Box*/
+    .search-box {
+	    left: 69%;
+	    width: 470px;
+	}
+	.search-box form input[type="text"] {
+    	width: 235px;
+    }
+    .search-box form button {
+    	width: 100px;
+    }
+}
+@media only screen and (max-width : 419px) {
+	/*.show {
+	    margin-left: 60%;
+	}
+	.top_nav_icons p {
+    	font-size: 14px;
+    	margin-left: 0px !important;
+    }*/
+    .sub_loading {
+	    margin-top: 70%;
+	}
+	#loading img {
+	    width: 10%;
+	    display: block;
+	    margin-top: 5px;
+	    margin-left: 47%;
+	}
+    .menu-list li a {
+    	margin-left: 5px !important;
+    }
+    .navbar .nav-link {
+	    font-size: 12px !important;
+	    color: #fff !important;
+	    border: none;
+	}
+	.navbar .nav-link:hover {
+		color: #3b3b3b;
+		background: transparent;
+	}
+	.icon {
+	    color: #fff;
+	}
+	.menu-btn {
+		width: 40px !important;
+	}
+	.navbar .menu-list {
+	    height: 40%;
+	    width: 49%;
+	}
+	.dropdown_sublist {
+		margin-top: 5px !important;
+	}
+    .dropdown-menu {
+	    color: #005633 !important;
+	}
+	.slider_prev {
+	    left: 70% !important;
+	}
+	.carousel-control-next, .carousel-control-prev {
+    	bottom: -40%;
+    }
+    .slider_text h2 {
+    	font-size: 41px;
+    }
+    .upcoming_event_text h1 {
+	    font-size: 18px;
+	    font-weight: 500;
+	}
+    .upcoming_event_text p {
+    	text-align: center !important;
+    }
+    .upcoming_event_btn a {
+    	font-size: 12px;
+    	padding: 1px 16px;
+    	border-radius: 15px;
+    }
+    .upcoming_event_btn {
+	    padding-top: 30px;
+	}
+	.about h1 {
+    	text-align: center;
+    }
+    .about p {
+    	font-size: 18px;
+    	width: 100%;
+    }
+    .subtitle {
+	    margin-left: 20%;
+	    margin-right: 20%;
+	}
+    .mission img {
+    	margin-top: 30px;
+    }
+    .card h3 {
+	    font-size: 24px;
+	}
+	.card ul {
+	    font-size: 18px;
+	}
+	.contact_title {
+	    font-size: 32px;
+	}
+	.contact_title_subtitle {
+	    font-size: 22px;
+	}
+	.contact_form {
+	    font-size: 32px;
+	}
+    .btn {
+	     margin-bottom: 0px; 
+	}
+	.footer-copyright {
+    	font-size: 16px;
+    }
+    .new-gapp {
+	     padding: 0px; 
+	}
+	.new-gapp a {
+    	padding: 20px 98px;
+    }
+    .modal_new {
+    	background: transparent;
+	    width: 100%;
+	    border: none;
+	    box-shadow: none;
+    }
+    .modal-body p {
+    	font-size: 24px;
+    	color: #000;
+    }
+    .modal-body .modal_number {
+	     padding: 0px; 
+	}
+	.item {
+	  	padding-right: 20px;
+	  	padding-left: 20px;
+	}
+	#gtco-footer .col-12 p {
+	    font-family: 'graphik',sans-serif;
+	    font-size: 15px;
+	    color: #005633;
+	}
+	.Ongoing_Courses {
+	    padding-top: 75%;
+	}
+	footer {
+		text-align: center;
+	}
+	.follow-us-nav {
+		margin-left: 15%;
+	}
+	.carousel-item {
+	    padding-bottom: 30px;
+	}
+	.choose_file {
+	    font-size: 14px;
+	    padding: 10px 30px;
+	}
+	#file-chosen {
+    	font-size: 13px;
+    }
+	.main_card {
+		margin-bottom: 60px;
+	}
+	.counter_style {
+	    left: 0%;
+	    padding: 30px;
+	}
+	.services_bg {
+		height: 500px;
+	}
+	.service_second {
+	    top: 10%;
+	    left: 0% !important;
+	}
+	.service_second p {
+		font-size: 15px;
+	}
+	.box img {
+    	width: 70%;
+    }
+    .dropdown_sublist .drop_manu {
+		font-size: 9px !important;
+	}
+	.manu-extra-gap {
+	    margin-top: 30px !important;
+	}
+	/*adding*/
+	.submit-Btn {
+	    background: #005633;
+	    font-size: 12px;
+	    font-weight: 300;
+	    font-family: 'graphik',sans-serif;
+	    color: #fff;
+	    border-radius: 50px;
+	    padding: 5px 15px;
+	    display: inline-block;
+	    padding-right: 5px;
+	    text-decoration: none !important;
+	    transition: .3s;
+	}
+	.submit-Btn .new_fa {
+		background: #fff;
+		border-radius: 50%;
+		height: 25px;
+		width: 25px;
+		color: #005633;
+		font-size: 22px;
+		text-align: center;
+		padding-top: 0px;
+		margin-left: 10px;
+	}
+	.upcoming_event_text h1 {
+	    margin-bottom: 0px !important;
+	}
+	.moblie_none {
+		display: none;
+	}
+
+    /*web-technologies responsive
+
+    .responsive_bar {
+	    top: 2%;
+	}
+	.web-title h1 {
+	    font-size: 30px;
+	}
+	.technologies_hr {
+	    margin-left: 18%;
+	}
+	.card ul {
+	    font-size: 16px;
+	}
+	.analytics_hr {
+	    width: 110px;
+	    margin-left: 34%;
+	}
+	.mission_hr {
+	    margin-bottom: 15px;
+	    margin-left: 23%;
+	}*/
+
+	
+    /*adding Certificate Search Box*/
+    .search-box {
+	    left: 69%;
+	    width: 470px;
+	}
+	.search-box form input[type="text"] {
+    	width: 235px;
+    }
+    .search-box form button {
+    	width: 100px;
+    }
+}

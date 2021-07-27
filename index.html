@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <!-- title icons -->
+	    <link rel="icon" type="image/png" href="img/title-icons/title-bar.png"> 
+	    <title>TopStack</title> 
+	    <!-- CSS only -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="fontawesome-free-5.15.3-web/css/fontawesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" integrity="sha512-nIm/JGUwrzblLex/meoxJSPdAKQOe2bLhnrZ81g5Jbh519z8GFJIWu87WAhBH+RAyGbM4+U3S2h+kL5JoV6/wA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+	    <link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">    
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap" rel="stylesheet">   
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+	    <link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+
+	<!-- loader -->
+
+	<div id="loading">
+		<div class="sub_loading">
+			<div class="slide-1"><img src="img/logo-bar-top.png"></div>
+			<div class="slide-2"><img src="img/logo-bar.png"></div>
+			<div class="slide-3"><img src="img/logo-bar.png"></div>
+			<div class="slide-4"><img src="img/logo-bar.png"></div>
+			<div class="slide-5"><img src="img/logo-bar.png"></div>
+		</div>
+	</div>
+
+
+	<section id="home">
+		<nav class="navbar">
+		    <div class="container">
+		      <div class="logo"><a href="#"><img class="mb-3" width="180" src="img/logo.png"></a></div>
+		      <ul class="menu-list">
+		        <div class="icon cancel-btn">
+		          <i class="fas fa-times"></i>
+		        </div>
+		        <li class="nav-item manu-extra-gap">
+		          <a class="nav-link" href="#home">Home</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#about">About</a>
+		        </li>
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Services
+		          </a>
+		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		            <li class="dropdown_sublist"><a class="dropdown-item drop_manu" href="#services">Industrial Training & placement support</a></li>
+		            <li class="dropdown_sublist"><a class="dropdown-item drop_manu" href="#services">Academic Consultancy</a></li>
+		            <li class="dropdown_sublist"><a class="dropdown-item drop_manu" href="#services">In-House Software Development</a></li>
+		          </ul>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#careers">Careers</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#contact">Contact</a>
+		        </li>
+		      </ul>
+		      <div class="icon menu-btn">
+		        <i class="fas fa-ellipsis-v main-manu-icons"></i>
+		      </div>
+		    </div>
+		  </nav>
+	</section>
+	<main>
+
+		<!-- slider -->
+
+		<div class="container">
+			<div class="row w-100 mt-5 main_slider_margin">
+				<div class="col-lg-6 col-12">
+					<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <div class="slider_text mb-3">
+	    					<h2>Learn <span>Smart. </span>Earn <span>Smarter.</span></h2>
+	    					<p>We are Software Development & Training Firm.</p>
+	    					<a href="#" class="submit-button">Read more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+	    				</div>
+					    </div>
+					    <div class="carousel-item">
+					      <div class="slider_text mb-3">
+	    					<h2>No Compromise on <span>Quality!</span></h2>
+	    					<p>We are Software Development & Training Firm.</p>
+	    					<a href="#" class="submit-button">Read more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+	    				</div>
+					    </div>
+					  </div>
+					  <button class="carousel-control-prev slider_prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+					    <span class="visually-hidden">Previous</span>
+					  </button>
+					  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
+					    <span class="visually-hidden">Next</span>
+					  </button>
+					</div>
+				</div>
+				<div class="col-lg-6 col-12 main_slider_img">
+					<img src="img/banner1.png">
+				</div>
+			</div>
+		</div>
+
+		<!-- upcoming event -->
+
+		<div class="container fancybox" href="img/Upcoming_Course.jpeg" data-fancybox="gallery1">
+			<div class="row upcoming_event">
+				<!-- <img src="img/new-popup.png">
+ -->				<div class="col-lg-6 col-md-6 col-12 text-center">
+					<div class="upcoming_event_text">
+						<a href="#"><span>Upcoming </span>Courses</a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-12 text-center moblie_none"><!--  upcoming_event_btn gallerys -->
+					<div>
+						<a href="img/Upcoming_Course.jpeg" class="submit-button fancybox submit-Btn mt-3" data-fancybox="gallery1">click here <i class="fa fa-angle-right new_fa" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- adding UPCOMING COURSE POSTER -->
+		<div class="container">
+			<div class="row gallerys">
+				<div class="col-lg-3 col-12">
+					<a href="img/ss-1.jpg" class="fancybox" data-fancybox="gallery1"></a>
+				</div>
+				<div class="col-lg-3 col-12">
+					<a href="img/ss-2.jpg" class="fancybox" data-fancybox="gallery1"></a>
+				</div>
+				<div class="col-lg-3 col-12">
+					<a href="img/ss-3.jpg" class="fancybox" data-fancybox="gallery1"></a>
+				</div>
+				<div class="col-lg-3 col-12">
+					<a href="img/ss-4.jpg" class="fancybox" data-fancybox="gallery1"></a>
+				</div>
+			</div>
+		</div>
+
+		<!-- wave -->
+
+		<!-- <section>
+			<div class="wave" id="wave1" style="--i:1;"></div>
+			<div class="wave" id="wave2" style="--i:2;"></div>
+			<div class="wave" id="wave3" style="--i:3;"></div>
+			<div class="wave" id="wave4" style="--i:4;"></div>
+		</section> -->
+
+		<!-- about section -->
+
+		<section id="about" style="background: #e2f1cf;">
+			<div class="container padd">
+				<div class="row">
+					<div class="col-lg-6 col-12">
+						<div class="about">
+							<h1>About us</h1>
+							<p>Founded in August, 2017 Topstack is group of vibrant inquisitive mind ventured on the array of technical education and software development to zero down the gap of academic education and industry needs. Our integrated in-house software development and technical training programme is perfect model fit to equip resources with latest technology trends.</p>
+							<a href="#" class="submit-button">Learn more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-6 col-12 mission">
+						<img class="w-100" src="img/about_img.png">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- services -->
+
+		<section id="services" style="background-color: #f7f7f7;">
+			<div style="padding: 100px 0 100px 0;">
+				<div class="container">
+					<p class="text-center subtitle">Our Services</p>
+					<h1 class="text-center title">What do we offer</h1>
+					<div class="row md mt-5">
+						<div class="col-lg-4 col-12 main_card">
+							<div class="card">
+								<div class="text-center">
+									<img src="img/icons/card1.png">
+									<h3>Industrial Training & placement support</h3>
+									<ul class="card-courses">
+										<li><a class="upcoming_event_btn Courses_extra_highlight" href="img/Upcoming_Course.jpeg" class="fancybox" data-fancybox="gallery1">Upcoming Courses</a></li>
+										<li><a class="Courses_extra_highlight" href="img/Ongoing_Course.jpg" class="fancybox" data-fancybox="gallery2">Ongoing Courses</a></li>
+										<li><a href="web-technologies.html">Web Technologies</a></li>
+										<li><a href="mobile-technologies.html">Mobile Technologies</a></li>
+										<li><a href="Analytics.html">Analytics</a></li>
+										<!-- <li>PHP & MySql</li>
+										<li>ASP.Net,SQL</li>
+										<li>Python Analytics</li>
+										<li>Machine learning with Matlab</li>
+										<li>JAVA, J2EE</li>
+										<li>Web Designing (HTML, CSS, Photoshop)</li>
+ -->									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-12 mm main_card">
+							<div class="card h-100">
+								<div class="text-center">
+									<img class="hd" src="img/icons/card2.png">
+									<h3>Academic Consultancy</h3>
+									<ul>
+										<li><a href="#">Final year project assistance</a></li>
+										<li><a href="#">Thesis assistance</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-12 mm main_card">
+							<div class="card h-100">
+								<div class="text-center">
+									<img class="hd" src="img/icons/card3.png">
+									<h3>In-House Software Development</h3>
+									<ul>
+										<li><a href="#">Web Development</a></li>
+										<li><a href="#">Apps Development</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Topstack hiring -->
+
+		<section>
+			<div class="hiring_section">
+				<div class="container">
+					<h1 class="text-center">We are hiring !</h1>
+					<div class="row mt-5">
+						<div class="col-lg-5 col-md-5 col-12">
+							<img src="img/hiring.png" class="hiring_img">
+						</div>
+						<div class="col-lg-1 col-md-1 col-12"></div>
+						<div class="col-lg-6 col-md-6 col-12 text-center">
+							<div>
+								<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+								  <div class="carousel-inner">
+								    <div class="carousel-item  hiring_item active" data-bs-interval="10000">
+							      		<div class="hiring_card">
+							      			<img src="img/hiring_poster_1.jpg" class="w-100">
+							      		</div>
+								    </div>
+								    <div class="carousel-item hiring_item" data-bs-interval="2000">
+							      		<div class="hiring_card">
+							      			<img src="img/hiring_poster_2.jpg" class="w-100">
+							      		</div>
+								    </div>
+								  </div>
+								  <button class="carousel-control-prev hiring_prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+								    <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+								    <span class="visually-hidden">Previous</span>
+								  </button>
+								  <button class="carousel-control-next right hiring_next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+								    <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
+								    <span class="visually-hidden">Next</span>
+								  </button>
+								</div>
+								<a href="#careers" class="submit-button">Apply Now <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- services two -->
+
+		<section class="position-relative">
+			<div class="position-relative">
+				<img class="w-100 services_bg" src="img/services-bg.jpg">
+				<div class="position-absolute service_second">
+					<div class="container text-center position-relative">
+						<h1 class="position-relative">Our <span>mission</span></h1>
+						<p>To provide quality software products with emerging tools and technologies to satisfy client's need and deliver product in time with competitive price and provide first hand industry exposure to the students.</p>
+						<p>To become a leading product developing and training company in the field of Information & Technology in tormorrow's market.</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- auto counter-up -->
+
+			<div class="container position-absolute counter_style">
+				<div class="row text-center">
+					<div class="col-md-4 col-12">
+						<div class="counter-box">
+							<h1><span class="counter">350</span><span>+</span></h1>
+							<p>No. of training</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-12">
+						<div class="counter-box">
+							<h1><span class="counter">950</span><span>+</span></h1>
+							<p>Innovative IT Solutions</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-12">
+						<div class="counter-box">
+							<h1><span class="counter">150</span><span>+</span></h1>
+							<p>Numbers of Projects</p>
+						</div>
+					</div>
+			    </div>
+			</div>
+		</section>
+
+		<!-- Ongoing Courses -->
+
+		<section style="background: #d5f1e4;">
+			<div class="Ongoing_Courses">
+				<h1 class="text-center mb-3">Success Story</h1>
+				<div class="container mt-5">
+					<div class="owl-carousel owl-theme">
+					    <div class="item"><img src="img/ss-1.jpg"></div>
+					    <div class="item"><img src="img/ss-2.jpg"></div>
+					    <div class="item"><img src="img/ss-3.jpg"></div>
+					    <div class="item"><img src="img/ss-4.jpg"></div>
+					    <div class="item"><img src="img/ss-5.jpg"></div>
+					    <div class="item"><img src="img/ss-6.jpg"></div>
+					    <div class="item"><img src="img/ss-7.jpg"></div>
+					    <div class="item"><img src="img/ss-8.jpg"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- testimonials -->
+
+		<section id="testimonials" style="background: #f7f7f7;">
+			<div class="testimonials">
+				<h1 class="text-center feedback_title">Testimonials</h1>
+				<div class="container mt-5">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-12 feedback_img">
+							<img class="w-100" src="img/feedback_img_4.png">
+						</div>
+						<div class="col-lg-6 col-md-6 col-12">
+							<div id="carouselExampleInterval" class="carousel slide feedback_carousel" data-bs-ride="carousel">
+							  <div class="carousel-inner">
+							    <div class="carousel-item active" data-bs-interval="10000">
+						      		<div class="feedback_gap">
+						      			<p class="text-left feedback_txt" style="font-size: 18px;">"Work was completed fast and the classes helped me learn very nicely"</p>
+						      			<p class="feedback_user">- Joshua Singh</p>
+						      		</div>
+							    </div>
+							    <div class="carousel-item" data-bs-interval="2000">
+						      		<div class="feedback_gap">
+						      			<p class="text-left feedback_txt" style="font-size: 18px;">"Very effective teaching methods that are easy to understand at all levels whether you are a beginner or advanced... extremely comprehensive knowledge of program languages"</p>
+						      			<p class="feedback_user">- Jesse Pidgeon</p>
+						      		</div>
+							    </div>
+							    <div class="carousel-item" data-bs-interval="2000">
+						      		<div class="feedback_gap">
+						      			<p class="text-left feedback_txt" style="font-size: 18px;">"I am an Arduino enthusiast and was kind of stuck with a project and of course I had not so much budget to develop it, Topstack not only deliver the full operational code, also built a prototype"</p>
+						      			<p class="feedback_user">- Luis Luna</p>
+						      		</div>
+							    </div>
+							    <div class="carousel-item" data-bs-interval="2000">
+						      		<div class="feedback_gap">
+						      			<p class="text-left feedback_txt" style="font-size: 18px;">"Topstack helped me in lot of projects and assignments and got good grade. I would surely recommend "</p>
+						      			<p class="feedback_user">- Khyathi Vanjarapu</p>
+						      		</div>
+							    </div>
+							  </div>
+							  <button class="carousel-control-prev feedback_prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+							    <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-left"></i></span>
+							    <span class="visually-hidden">Previous</span>
+							  </button>
+							  <button class="carousel-control-next right feedback_next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+							    <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-right"></i></span>
+							    <span class="visually-hidden">Next</span>
+							  </button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+
+		<!-- contact us -->
+		<div id="contact">
+			<section>
+				<h2 class="text-center contact_title">Get in touch with us</h2>
+				<p class="text-center contact_title_subtitle">Feel free to contact us</p>
+				<div class="container">
+					<div class="row mb-5">
+						<div class="col-md-4 col-12 text-center mb-5" id="contact_hover">
+							<div class="contact_details">
+								<span class="contact-location"><i class="fas fa-map-marker-alt" id="icon_change"></i></span>
+								<h2 class="mt-5">Meet Us</h2>
+								<a href="#">Chinsurah, Hooghly, West Bengal.</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 text-center mb-5" id="contact_hover">
+							<div class="contact_details contact_call">
+								<span class="contact-call"><i class="fas fa-phone-alt" id="another_change"></i></span>
+								<h2 class="mt-5">Call Us</h2>
+								<a href="tel:8910045833">phone: (+91) 8910045833</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-12 text-center mb-5" id="contact_hover">
+							<div class="contact_details">
+								<span class="contact-mail"><i class="fas fa-envelope" id="icon_change"></i></span>
+								<h2 class="mt-5">Mail Us</h2>
+								<a href="mailto:info@topstack.co.in">info@topstack.co.in</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<!-- Adding -->
+
+		<section>
+			<div class="box">
+				<h2 class="text-center Certificate_title">Get Certificate</h2>
+				<div class="search-box">
+					<form>
+						<input type="text" name="" placeholder="Enter Unique code...">
+						<button type="submit" name="" value="">Search</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+
+		<div id="careers">
+		<section class="position-relative careers-gap" style="background: #f9f9f9;" id="gtco-footer">
+			<div class="container career_section mb-5">
+				<h1 class="text-center mb-5 careers_title">Careers</h1>
+				<div class="myCard">
+					<div class="row main_career">
+						<div class="col-lg-6 col-md-12 col-12">
+							<div class="myLeftCtn" id="contact">
+								<form class="myForm text-center">
+									<header>Drop your CV Here!</header>
+									<input type="text" class="form-control input" placeholder="Full Name">
+									<!-- <small>Lorem ipsum dolor sit amet.</small> -->
+					                <input type="email" class="form-control input" placeholder="Email Address">
+					                <!-- <small>Lorem ipsum dolor sit amet.</small> -->
+					                <input type="number" class="form-control input" placeholder="Contact Number">
+					                <!-- <small>Lorem ipsum dolor sit amet.</small> -->
+									<span class="pr-3">Select your Experience: </span>
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input radio_button" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked>
+									  <label class="form-check-label pr-2" for="inlineRadio1"> Fresher</label>
+									</div>
+									<div class="form-check form-check-inline">
+									  <input class="form-check-input radio_button" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+									  <label class="form-check-label" for="inlineRadio2">
+									  	<select class="form-select pr-2" aria-label="Default select example">
+										  <option selected disabled>Experience</option>
+										  <option value="1">1-2 Years</option>
+										  <option value="2">2-5 Years</option>
+										  <option value="3">5-10 Years</option>
+										</select>
+									  </label>
+									</div>
+					                <div class="custom-file-upload">
+									    <!-- actual upload which is hidden -->
+										<input type="file" id="actual-btn" hidden/>
+
+										<!-- our custom upload button -->
+										<label class="choose_file" for="actual-btn">Choose File</label>
+
+										<!-- name of file chosen -->
+										<span id="file-chosen">No file chosen</span>
+									</div>
+					                <!-- <a href="#" class="submit-button">Submit <i class="fa fa-angle-right" aria-hidden="true"></i></a> -->
+					                <button type="submit" class="submit-button">Submit <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+
+								</form>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-12 col-12" style="margin-top: 0px;">
+							<div class="myRightCtn">
+								<div class="box">
+									<img src="img/white-logo.png">
+									<p>Founded in August, 2017 Topstack is group of vibrant inquisitive mind ventured on the array of technical education and software development to zero down the gap of academic education and industry needs. Our integrated in-house software development and technical training programme is perfect model fit to equip resources with latest technology trends.</p>
+										<a href="#" class="submit-button">Learn more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		</div>
+		<!-- Footer -->
+		<footer class="container-fluid" id="gtco-footer">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-lg-6" id="contact">
+		                <h4> Contact Us </h4>
+		                <input type="text" class="form-control input" placeholder="Full Name">
+		                <input type="email" class="form-control input" placeholder="Email Address">
+		                <textarea class="form-control" placeholder="Message"></textarea>
+		                <a href="#" class="submit-button">Read more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+		            </div>
+		            <div class="col-lg-6">
+		                <div class="row">
+		                    <div class="col-lg-6 col-12">
+		                        <h4  class="mt-3">Company</h4>
+		                        <ul class="nav flex-column company-nav">
+		                            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+		                            <li class="nav-item"><a class="nav-link" href="#about">About us</a></li>
+		                            <li class="nav-item"><a class="nav-link" href="#services">Services +</a></li>
+		                            <li class="nav-item"><a class="nav-link" href="#testimonials">Careers</a></li>
+		                            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+		                        </ul>
+		                        <h4 class="mt-5">Follow Us</h4>
+		                        <ul class="nav follow-us-nav">
+		                            <li class="nav-item footer_icons"><a class="fb-ic"><i class="fab fa-facebook-f"></i></a></li>
+		                            <li class="nav-item footer_icons"><a class="ins-ic"><i class="fab fa-instagram fa-lg white-text mr-4"></i></a></li>
+		                            <li class="nav-item footer_icons"><a class="li-ic"><i class="fab fa-linkedin-in fa-lg white-text mr-4"></i></a></li>
+		                            <!-- <li class="nav-item footer_icons"><a class="gplus-ic"><i class="fab fa-google-plus-g fa-lg white-text mr-4"></i></a></li> -->
+		                        </ul>
+		                    </div>
+		                    <div class="col-lg-6 col-12">
+		                        <h4  class="mt-3">Services</h4>
+		                        <ul class="nav flex-column services-nav">
+		                            <li class="nav-item"><a class="nav-link" href="web-technologies.html">Web Technologies</a></li>
+		                            <li class="nav-item"><a class="nav-link" href="mobile-technologies.html">Mobile Technologies</a></li>
+		                            <li class="nav-item"><a class="nav-link" href="Analytics.html">Analytics</a></li>
+		                            <li class="nav-item gallerys"><a class="nav-link" href="img/Upcoming_Course.jpeg" class="fancybox" data-fancybox="gallery1">Upcoming Courses</a></li>
+		                            <li class="nav-item card-courses"><a class="nav-link Courses_extra_highlight footer_ongoing" href="img/Ongoing_Course.jpg" class="fancybox" data-fancybox="gallery2">Ongoing Courses</a></li>
+		                        </ul>
+		                    </div>
+		                    <div class="col-12 copyRight_section">
+		                        <p>© 2021. All Rights Reserved. <a href="#">Privacy Policy.</a></p>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</footer>
+		<div class="gotopbtn">
+			<a href="#home"><i class="fas fa-chevron-up"></i></a>
+		</div>
+		 <!-- Copyright -->
+		  <!-- <div class="footer-copyright text-center py-3">© 2021 All Rights Reserved. Privacy Policy</div> -->
+		  <!-- Copyright -->
+		<!-- Footer -->
+
+		<!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    
+	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="file:///E:/jquery.js"></script>
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js" integrity="sha512-+m6t3R87+6LdtYiCzRhC5+E0l4VQ9qIT1H9+t1wmHkMJvvUQNI5MKKb7b08WL4Kgp9K0IBgHDSLCRJk05cFUYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<!-- <script>
+		var preloader = document.getElementById("loading");
+		function preloading() {
+			preloader.style.display = 'none';
+		}
+	</script> -->
+	<script>
+		setTimeout(function(){
+			$('#loading').fadeToggle();
+		}, 1900);
+	</script>
+	<script>
+	    const body = document.querySelector("body");
+	    const navbar = document.querySelector(".navbar");
+	    const menu = document.querySelector(".menu-list");
+	    const menuBtn = document.querySelector(".menu-btn");
+	    const cancelBtn = document.querySelector(".cancel-btn");
+	    menuBtn.onclick = ()=>{
+	      menu.classList.add("active");
+	      menuBtn.classList.add("hide");
+	      cancelBtn.classList.add("show");
+	      body.classList.add("disabledScroll");
+	    }
+	    cancelBtn.onclick = ()=>{
+	      menu.classList.remove("active");
+	      menuBtn.classList.remove("hide");
+	      cancelBtn.classList.remove("show");
+	      body.classList.remove("disabledScroll");
+	    }
+
+	    window.onscroll = ()=>{
+	      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+	    }
+	  </script>
+	 <script>
+		$(document).ready(function(){
+		  $("a").on('click', function(event) {
+		    if (this.hash !== "") {
+		      event.preventDefault();
+		      var hash = this.hash;
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top - 75
+		      }, 800, function(){
+		   
+		        //window.location.hash = hash;
+		      });
+		    }
+		  });
+		});
+		</script>
+	<script>
+    	$('.owl-carousel').owlCarousel({
+		    loop:true,
+		    dots: true,
+		    margin:10,
+		    items:4,
+		    autoplay:true,
+		    autoplayTimeout:3000,
+		    responsive:{
+		         0:{
+		            items:1,
+		            nav:false
+		        },
+		        600:{
+		            items:2,
+		            nav:false
+		        },
+		        1000:{
+		            items:3,
+		            nav:false
+		        }
+		    }
+		})
+    </script>
+	<script>
+      $('.icon').click(function(){
+        $('span').toggleClass("cancel");
+      });
+    </script>
+    <!-- <script>
+    	let wave1 = document.getElementById('wave1');
+    	let wave2 = document.getElementById('wave2');
+    	let wave3 = document.getElementById('wave3');
+    	let wave4 = document.getElementById('wave4');
+
+    	window.addEventListener('scroll', function(){
+    		let value = window.scrollY;
+
+    		wave1.style.backgroundPositionX = 400 + value * 4 + 'px';
+    		wave2.style.backgroundPositionX = 300 + value * -3 + 'px';
+    		wave3.style.backgroundPositionX = 200 + value * 2 + 'px';
+    		wave4.style.backgroundPositionX = 100 + value * -1 + 'px';
+    	})
+    </script> -->
+    <script>
+    	$('.counter').counterUp({
+		    delay: 20,
+		    time: 1000
+		});
+    </script>
+    <script>
+    	const actualBtn = document.getElementById('actual-btn');
+
+		const fileChosen = document.getElementById('file-chosen');
+
+		actualBtn.addEventListener('change', function(){
+		  fileChosen.textContent = this.files[0].name
+		})
+    </script>
+    <!-- <script>
+    	$(document).ready(function(){
+    		$('.gallerys').magnificPopup({
+    			type: 'image',
+    			delegate: 'a',
+    			gallery : {
+    				enabled : true
+    			}
+    		});
+    	});
+    </script> -->
+    <script>
+    	$(document).ready(function(){
+    		$('.card-courses').magnificPopup({
+    			type: 'image',
+    			delegate: '.Courses_extra_highlight'
+    		});
+    	});
+    </script>
+    <!-- <script>
+    	$( "select" )
+		  .change(function () {
+		    var str = "";
+		    $( "select option:selected" ).each(function() {
+		      // $('input#exp').attr('checked','checked');
+		      $('input#exp').prop('checked', true);
+		    });
+		  })
+		  	$('input#fresher').click(function(){
+			// $( "select option:first-child" ).attr('selected');
+			$( "select option:first-child" ).prop('selected', true);
+		})
+		  .change();
+    </script> -->
+    <!-- GetButton.io widget -->
+	<script type="text/javascript">
+	    (function () {
+	        var options = {
+	            facebook: "108943364787605", // Facebook page ID
+	            call_to_action: "", // Call to action
+	            position: "left", // Position may be 'right' or 'left'
+	        };
+	        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+	        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+	        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+	        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+	    })();
+	</script>
+	<!-- /GetButton.io widget -->
+
+	<!-- adding -->
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108943364787605");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+</body>
+</html>

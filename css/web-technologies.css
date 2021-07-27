@@ -1,0 +1,68 @@
+.web-title {
+	top: 50%;
+    left: 5%;
+}
+.web-details {
+	margin-bottom: 100px;
+}
+.web-img {
+	z-index: -100;
+    padding-top: 100px;
+}
+.web-title h1 {
+  	color: #c5c5c5;
+  	font-size: 42px;
+    font-weight: 800;
+    font-family: 'San Francisco',sans-serif;
+    position: relative;
+}
+.web-title h1 span {
+	color: #009955;
+}
+.web-title h1::after {
+    content: '';
+  height: 2px;
+  width: 180px;
+  background: #005633;
+  position: absolute;
+  bottom: -19px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.web-section {
+	margin-top: 100px;
+}
+.color {
+	background-color: #00dc7a;
+	height: 100%;
+}
+.web-info {
+	padding: 15px;
+}
+.web-info h2 {
+	color: #fff;	
+}
+.web-info h2 span {
+	color: #009955;
+}
+.web-info p {
+	font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: #efefef;
+    font-weight: 300;
+}
+.web-info ul li {
+    color: #007541;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/*mobile technologies CSS*/
+
+.web-info h4 {
+	font-size: 22px;
+    margin-top: 30px;
+    color: #fff;
+}
